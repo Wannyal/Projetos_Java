@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class PositivoseMédia {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		float N = 0, M = 0, I;
+		for (I = 0; I < 6; I++) {
+			N = sc.nextFloat();
+			if (N > 0) {
+				M = M + N;
+				M = M / I;
+				System.out.println(I + " valores positivos");
+				System.out.println(M);
+			}
+
+		}
+
+	}
+}

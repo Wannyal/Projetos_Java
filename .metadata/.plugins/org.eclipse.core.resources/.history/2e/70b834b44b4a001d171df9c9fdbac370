@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Idades {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		float M=0, N, I;
+		N = sc.nextFloat();
+		for (I = 0; I >= 0; I++) {
+			if (N > 0) {
+				M = N / I;
+			}
+		}
+		System.out.println((float)M);
+	}
+}

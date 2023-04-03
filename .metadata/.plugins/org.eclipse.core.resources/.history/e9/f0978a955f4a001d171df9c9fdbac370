@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class NúmerosImpares {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int X, I;
+		X= sc.nextInt();
+		for (I=1; I<=X; I=I+2) {
+				System.out.println(I=I+2);
+			}
+	
+}
+}

@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Quest3 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		float Vp;
+		Vp= sc.nextFloat();
+		Vp=(float) (Vp*0.9+Vp);
+		System.out.print ("O valor do produto com desconto é: "+ Vp);
+	
+	}
+
+}

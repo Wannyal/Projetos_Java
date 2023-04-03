@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Quest5 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int L, C, I, J;
+		L = sc.nextInt();
+		C = sc.nextInt();
+		for (I = 0; I < L; I++) {
+			if (I == 0 || I == L - 1) {
+				for (J = 0; J < C; J++) {
+					System.out.print("*");
+				}
+			}
+			for (J = 0; J < C; J++) {
+			else { (J == 0 || J == C - 1) {
+					System.out.print("*");
+
+				}
+			}
+
+			System.out.println();
+		}
+
+	}
+}

@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class QuadradoeaoCubo {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int N, I;
+		N = sc.nextInt();
+		for (I = 0; I < N; I++) {
+			System.out.print(I);
+			System.out.print(I * I);
+			System.out.print(I * I * I);
+		}
+	}
+}

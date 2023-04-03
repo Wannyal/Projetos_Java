@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Quest2 {
+
+		public static void main(String[] args) {
+			Scanner sc = new Scanner(System.in);
+			float C1, C2, H;
+			C1= sc.nextFloat();
+			C2= sc.nextFloat();
+			H= (C1*C1)+(C2*C2);
+			H= H*H;
+			System.out.print ("A hipotenusa é: "+ H);
+	}
+
+}

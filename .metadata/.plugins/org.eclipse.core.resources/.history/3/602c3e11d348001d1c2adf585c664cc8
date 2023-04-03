@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class ParesImparesPositivoseNegativos {
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	int A, Imp = 0, Par = 0, Neg=0, Pos=0, i;
+	for (i = 0; i < 5; i++) {
+		A = sc.nextInt();
+		if (A % 2 == 0) {
+			Par++;
+		} else {
+			Imp++;
+		}
+         if(A<0) {
+             Neg++;
+        } else{
+              Pos++;
+        }
+	 }
+	  System.out.println(Par + " valor(es) par(es)");
+      System.out.println(Imp + " valor(es) impar(es)");
+      System.out.println(Neg + " valor(es)  positivo(s)");
+      System.out.println(Par + " valor(es) negativo(s)");
+   }
+}

@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class DividindoXporY {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int N, X, Y, I; 
+		N= sc.nextInt();
+		for (I=0;I<N;I++) {
+			X= sc.nextInt();
+			Y= sc.nextInt();
+			if (Y!=0 ) {
+				System.out.printf("%.2f",(float)X/Y);				 
+				}
+			else {
+				System.out.println("divisao impossivel");
+			}
+			}
+		}
+			
+		
+}

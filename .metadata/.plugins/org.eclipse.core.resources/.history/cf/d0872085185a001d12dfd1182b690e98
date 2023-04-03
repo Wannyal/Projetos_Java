@@ -1,0 +1,9 @@
+import java.util.Scanner;
+
+public class Quest1 {
+	public void static main (String[args]) {
+		Scanner sc = new Scanner(System.in);
+	}
+	
+
+}

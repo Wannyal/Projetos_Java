@@ -1,0 +1,10 @@
+
+public class Bebezinho {
+	public static void main(String[] args) {
+		int X, Y, Z;
+		X=15;
+		Y=20;
+		Z=X+Y;
+		System.out.println("Soma:"+Z);
+	}
+}

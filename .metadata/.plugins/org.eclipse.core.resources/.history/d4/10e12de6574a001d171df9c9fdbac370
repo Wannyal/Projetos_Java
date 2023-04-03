@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class FatorialSimples {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int N, F = 1, I;
+		N = sc.nextInt();
+		for (I = 1; I <= N; I++) {
+			F = I*F;
+		}
+	System.out.println(F);
+}
+}

@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Bebezinho {
+	public static void main(String[] args) throws Exception {
+		Scanner S;
+		int X, Y, Z;
+		S= new Scanner(System.in);
+		X = nextInt();
+		Y = nextInt();
+		Z = X + Y;
+		System.out.println("Soma:" + Z);
+	}
+}
